@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/EmmanuelTorresV/random-str-msg-etv/issues"
   },
-  "homepage": "https://github.com/EmmanuelTorresV/random-str-msg-etv#readme"
+  "homepage": "https://github.com/EmmanuelTorresV/random-str-msg-etv#readme",
+  "bin": {
+    "random-str-msg-etv": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
